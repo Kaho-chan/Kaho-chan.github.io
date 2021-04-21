@@ -16,9 +16,6 @@
   a:hover {
         color: #000000;
   }
-  .head-u {
-			padding: 1em;
-	}
     .head-title {
 		font-size: 1em;
 		margin-bottom: 0.8em;
@@ -28,4 +25,4 @@
 	}
 </style>
     <body>
-      <div class="head-u"><div class="head-title"><h1 title="What are you doing?"><a href="https://kaho-chan.github.io/kkbw-tea-faction.html" target="_blank">Tea is nice
+      <div class="head-title"><h1 title="What are you doing?"><a href="https://kaho-chan.github.io/kkbw-tea-faction.html" target="_blank">Tea is nice
