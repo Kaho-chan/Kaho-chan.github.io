@@ -19,7 +19,6 @@
     .head-title {
 		font-size: 1em;
 		margin-bottom: 0.8em;
-		line-height: 0.75em;
 		padding-bottom: .35em;
 		border-bottom: 1px solid #000000;
 	}
