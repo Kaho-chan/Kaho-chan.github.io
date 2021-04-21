@@ -1,2 +1,1 @@
-# Kaho-chan.github.io
-Tea.
+# Tea is nice.
