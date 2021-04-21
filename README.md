@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
   <head>
 <style>
@@ -29,6 +28,4 @@
 	}
 </style>
     <body>
-      <div class="head-u"><div class="head-title"><h1 title="What are you doing?"><a href="https://kaho-chan.github.io/kkbw-tea-faction.html" target="_blank">Tea is nice</h1></a></div>
-</head>
-</html>
+      <div class="head-u"><div class="head-title"><h1 title="What are you doing?"><a href="https://kaho-chan.github.io/kkbw-tea-faction.html" target="_blank">Tea is nice
