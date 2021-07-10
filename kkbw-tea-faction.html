@@ -58,7 +58,27 @@
         background-color:rgba(5, 5, 5, 0.555);
         background-blend-mode: darken;
     }
-    
+/* Scrollbar appearance */
+    ::-webkit-scrollbar {
+		width: 8px;
+		height: 8px;
+		}
+	::-webkit-scrollbar-corner {
+		background: none;
+		}
+	::-webkit-scrollbar-track {
+        background: #735756;
+		}
+	::-webkit-scrollbar-thumb { 
+        background: #e98bb7;
+		border-radius: 8px;
+		}
+	::-webkit-scrollbar-track:hover {
+		background: #5e4746;
+		}
+	::-webkit-scrollbar-thumb:hover {
+		background: #ac768b; 
+		}
 </style>
 </head>
 	<link rel="icon" href="https://imgur.com/EMQy9HL.png">
@@ -72,8 +92,8 @@
               <tr>
               <th>Join Order</th>
               <th>Tea Name</th>
-              <th>Discord Tag</th>
-              <th>Join Date (GMT+9)</th>
+              <th>Discord Tag*</th>
+              <th>Join Date^</th>
               </tr>
             </thead>
             <tbody>
@@ -81,13 +101,13 @@
               <td>#1</td>
               <td>Black Tea</td>
               <td>HavocChuu(๑・ω-)～♥ 2.0#0991</td>
-              <td>Izumi</td>
+              <td>founder, i guess</td>
             </tr>
             <tr>
                 <td>#2</td>
                 <td>Green Tea</td>
                 <td>arufaaa_#1425</td>
-                <td>Kyouko</td>
+                <td>founder, i guess</td>
             </tr>
             <tr>
                 <td>#3</td>
@@ -104,7 +124,7 @@
             <tr>
                 <td>#5</td>
                 <td>Pink Tea</td>
-                <td>『 Yuu 』#9270</td>
+                <td>『さやか』#9270</td>
                 <td>2020/12/04</td>
             </tr>
             <tr>
@@ -167,33 +187,52 @@
                 <td>Onichain#9696</td>
                 <td>2021/04/20</td>
             </tr>
-	    <tr>
-		<td>#16</td>
-		<td>Tea Teh</td>
-		<td>Kenerkz#9091</td>
-		<td>2021/04/25</td>
-	    </tr>
+	        <tr>
+		        <td>#16</td>
+		        <td>Tea Teh</td>
+		        <td>Kenerkz#9091</td>
+		        <td>2021/04/25</td>
+	        </tr>
             <tr>
-		<td>#17</td>
-		<td>Moka Tea</td>
-		<td>Moka#3083</td>
-		<td>2021/04/27</td>
+		        <td>#17</td>
+		        <td>Moka Tea</td>
+		        <td>Moka#3083</td>
+		        <td>2021/04/27</td>
             </tr>
-	    <tr>
+	        <tr>
                 <td>#18</td>
-		<td>Nova Tea</td>
-	        <td>Nova#2531</td>
-		<td>2021/05/13</td>
+		        <td>Nova Tea</td>
+	            <td>Nova#2531</td>
+		        <td>2021/05/13</td>
             </tr>
             <tr>
-		<td>#19</td>
-		<td>Green Tea</td>
-		<td>Mitsuki#6745</td>
-		<td>2021/05/13</td>
+		        <td>#19</td>
+		        <td>Green Tea</td>
+		        <td>Mitsuki#6745</td>
+		        <td>2021/05/13</td>
+            </tr>
+            <tr>
+		        <td>#20</td>
+		        <td>Dark Brown Unchi Tea</td>
+		        <td>Dark Brown Unchi Tea Jeff#0807</td>
+		        <td>2021/06/25</td>
+            </tr>
+            <tr>
+		        <td>#21</td>
+		        <td>Durian Borgir Tea</td>
+		        <td>HAMBURGER-PLS#3279</td>
+		        <td>2021/07/06</td>
+            </tr>
+            <tr>
+		        <td>#22</td>
+		        <td>Sorey Apple Tea</td>
+		        <td>Sorey Apple Tea#4482</td>
+		        <td>2021/05/13</td>
             </tr>
             </tbody>
           </table>
     
-          <p style="font-size:75%"><i>*subject to change</i></p>
+          <p style="font-size:75%"><i>*tags may be incorrect for obvious reasons</i></p>
+          <p style="font-size:75%"><i>^GMT+9, yyyy/mm/dd</i></p>
     </body>
 </html>
